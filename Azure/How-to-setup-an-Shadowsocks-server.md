@@ -22,7 +22,9 @@
     - [Usage](https://github.com/shadowsocks/shadowsocks/blob/master/README.md#usage)
 - Shadowsocks Clients
     - [Shadowsocks Clients](https://shadowsocks.org/en/download/clients.html)
+    - [Windows Client](https://github.com/shadowsocks/shadowsocks-windows/releases)
     - [Android Client](https://github.com/shadowsocks/shadowsocks-android/releases)
+    - [iOS Client - FirstWingy](https://itunes.apple.com/cn/app/firstwingy/id1316416848?mt=8)
 
 ## Steps
 1. [Create a Linux VM located in Asia](#create-a-linux-vm-located-in-asia)
