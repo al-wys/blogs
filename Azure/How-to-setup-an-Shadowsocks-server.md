@@ -25,9 +25,9 @@
 ## Steps
 1. [Create a Linux VM located in Asia](#create-a-linux-vm-located-in-asia)
 2. [Install basic modules in VM located in Asia](#install-basic-modules-in-vm-located-in-asia)
-3. [Create a Linux VM located in US/EU (Optional)](#create-a-linux-vm-located-in-us/eu)
+3. [Create a Linux VM located in US/EU (Optional)](#create-a-linux-vm-located-in-useu)
 4. [Set network proxy on the VM located in Asia (Optional)](#set-network-proxy-on-the-vm-located-in-asia)
-5. [Setup the Shadowsocks Server on Asia VM](#setup-the-shaowsocks-server-on-asia-vm)
+5. [Setup the Shadowsocks Server on Asia VM](#setup-the-shadowsocks-server-on-asia-vm)
 6. [Connect to the server on your device](#connect-to-the-server-on-your-device)
 
 ## Create a Linux VM located in Asia
