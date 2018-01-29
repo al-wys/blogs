@@ -20,7 +20,9 @@
 - Getting started for Shadowsocks
     - [Install](https://github.com/shadowsocks/shadowsocks/blob/master/README.md#install)
     - [Usage](https://github.com/shadowsocks/shadowsocks/blob/master/README.md#usage)
-- [Shadowsocks Clients](https://shadowsocks.org/en/download/clients.html)
+- Shadowsocks Clients
+    - [Shadowsocks Clients](https://shadowsocks.org/en/download/clients.html)
+    - [Android Client](https://github.com/shadowsocks/shadowsocks-android/releases)
 
 ## Steps
 1. [Create a Linux VM located in Asia](#create-a-linux-vm-located-in-asia)
@@ -153,10 +155,10 @@ __If Asia area network is fine for you and you have no requirement to connect to
         ![Install Shadowsocks](images/install-ss.png)
     - Start __Shadowsocks__ service on the port (*8388 in this blog, __remember to use your own password in below command__*)
         ```shell
-        sudo shadowsocks.ssserver -p 8388 -k passwordHere -m aes-256-cfb
+        sudo ssserver -p 8388 -k passwordHere -m aes-256-cfb --user nobody -d start
         ```
     
 ## Connect to the server on your device
-1. Install Shadowsocks Client on your device from [Shadowsocks Clients](https://shadowsocks.org/en/download/clients.html)
+1. Install Shadowsocks Client on your device (*Link can be found under [References - Shadowsocks Clients](#references)*)
 2. Configure your server information in the client
 3. Enjoy your networks
