@@ -100,7 +100,7 @@ In this step, you will enable __EPEL__ and install __pip__, __git__ on your Asia
     ![Exit root](images/exit-root.png)
 
 ## Create a Linux VM located in US/EU
-__If Asia area network is fine for you and you have no requirement to connect to US or EU area service, please skip this step and go to [Setup the Shadowsocks Server on target VM](#setup-the-shaowsocks-server-on-target-vm).__
+__If Asia area network is fine for you and you have no requirement to connect to US or EU area service, please skip this step and go to [Setup the Shadowsocks Server on Asia VM](#setup-the-shadowsocks-server-on-asia-vm).__
 
 1. Please follow steps that you have done in step [Create a Linux VM located in Asia](#create-a-linux-vm-located-in-asia), and __note below difference__:
 
@@ -119,7 +119,7 @@ __If Asia area network is fine for you and you have no requirement to connect to
         ![Port 8080 rule](images/8080-port.png)
 
 ## Set network proxy on the VM located in Asia
-__If Asia area network is fine for you and you have no requirement to connect to US or EU area service, please skip this step and go to [Setup the Shadowsocks Server on target VM](#setup-the-shaowsocks-server-on-target-vm).__
+__If Asia area network is fine for you and you have no requirement to connect to US or EU area service, please skip this step and go to [Setup the Shadowsocks Server on Asia VM](#setup-the-shadowsocks-server-on-asia-vm).__
 
 1. Connect to the VM located in Asia
 2. Login with the user name you typed when creting this VM (*__demo-user__ in this blog*)
