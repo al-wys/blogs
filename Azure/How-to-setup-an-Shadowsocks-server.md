@@ -183,4 +183,5 @@ Add above command as startup command, the service will automatically run when th
     ```shell
     sudo ssserver -p 8388 -k passwordHere -m aes-256-cfb --user nobody -d start
     ```
-6. Type `:wq` save the file and quit vim editor
+6. Type `Esc` to quit insert mode
+7. Type `:wq` save the file and quit vim editor
