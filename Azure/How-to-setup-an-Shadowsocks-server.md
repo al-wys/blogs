@@ -172,7 +172,7 @@ Add above command as startup command, the service will automatically run when th
 1. Login the Linux VM located in Asia (*your SS server*)
 2. Run below command to grant execute permission to `/etc/rc.d/rc.local`
     ```shell
-    chmod +x /etc/rc.d/rc.local
+    sudo chmod +x /etc/rc.d/rc.local
     ```
 3. Run below command to edit `/etc/rc.d/rc.local`
     ```shell
