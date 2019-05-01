@@ -33,6 +33,7 @@
 4. [Set network proxy on the VM located in Asia (Optional)](#set-network-proxy-on-the-vm-located-in-asia)
 5. [Setup the Shadowsocks Server on Asia VM](#setup-the-shadowsocks-server-on-asia-vm)
 6. [Connect to the server on your device](#connect-to-the-server-on-your-device)
+7. [Add startup command](#add-startup-command)
 
 ## Create a Linux VM located in Asia
 You can find the detail under [References](#references). Please note below points before you create the VM:
@@ -164,3 +165,22 @@ __If Asia area network is fine for you and you have no requirement to connect to
 1. Install Shadowsocks Client on your device (*Link can be found under [References - Shadowsocks Clients](#references)*)
 2. Configure your server information in the client
 3. Enjoy your networks
+
+## Add startup command
+Add above command as startup command, the service will automatically run when the server restarts.
+
+1. Login the Linux VM located in Asia (*your SS server*)
+2. Run below command to grant execute permission to `/etc/rc.d/rc.local`
+    ```shell
+    chmod +x /etc/rc.d/rc.local
+    ```
+3. Run below command to edit `/etc/rc.d/rc.local`
+    ```shell
+    sudo vim /etc/rc.d/rc.local
+    ```
+4. Type `i` to enable insert mode
+5. Add the command in a new line
+    ```shell
+    sudo ssserver -p 8388 -k passwordHere -m aes-256-cfb --user nobody -d start
+    ```
+6. Type `:wq` save the file and quit vim editor
